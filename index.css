@@ -320,11 +320,8 @@ header{
 }
 }
 @media screen and (max-width:599px) {
-    .overlay{
+.overlay{
     height: 115%;
-}
- .email{
-   width: 100% !important;
 }
 .pre-footer input{
     width: 100% !important;      
