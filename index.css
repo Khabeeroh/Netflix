@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(images/netflix.jpg);
+    background-color: black !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    padding-bottom: 30px !important;
+    width: 100%;
+    opacity: 1 !important;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 150px 10px 140px !important;
+   opacity: 1000 !important;
+   position: relative !important;
+   z-index: 10;
+}
+
+.nav-logo img{
+    width: 180px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-link button, .text button, .pre-footer button{
+    font-size: 15px;
+    background-color: red !important;
+}
+.nav-link a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.text{
+    position: relative;
+    margin: auto !important;
+}
+.text h1{
+    font-size: 60px !important;
+    width: 50%;
+    margin: auto !important;
+    font-weight: 700 !important;
+}
+.text h3{
+    font-size: 20px !important;
+}
+.text input{
+    width: 50% !important;
+}
+.trending h4,.reasons h4, .FAQ h3{
+    padding-left: 80px !important;
+} 
+.email, .password{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid gray !important;
+}
+.trending, .reasons, .FAQ{
+    background-color: black !important;
+}
+.linear{
+    margin: auto;
+    width: 90%;
+    border-radius: 100%;
+    background-image: linear-gradient(red 20%, blue);
+    height: 10px;
+}
+.trending-container{
+    width: 100% !important;
+    margin: auto !important;
+}
+.carousel-item, .reason-container{
+     width: 80% !important;
+    margin: auto !important;
+    margin-left: 120px !important;
+}
+.card-body p{
+    font-size: 90px !important;
+    margin-top: 5rem !important;
+    /* height: 30px !important; */
+    color: black !important;
+    text-shadow: 2px 2px 4px white !important;
+}
+.card{
+    border: none !important;
+}
+.card:hover{
+    animation: card 0.5s ease-in-out forwards;
+}
+@keyframes card {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+.reason-container .col{
+    background-color:rgb(26, 15, 54) !important;
+    border-radius: 15px !important;
+    /* height: 350px !important; */
+    padding: 20px !important;
+    font-family: "Roboto", sans-serif !important;
+}
+.reason-container .col:hover{
+    animation: reason 0.5s ease-in-out forwards;
+}
+@keyframes reason {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+.reasons .icon{
+    color: red !important;
+    font-size: 50px !important;
+  float: right !important;
+  margin-top: 50px !important;
+}
+.reasons .icon img{
+    width: 60px !important;
+    float: right !important;
+}
+.reasons p{
+    /* font-size: 18px !important; */
+    color: rgb(243, 239, 239) !important;
+}
+.FAQ .accordion{
+    margin: auto !important;
+    width: 80% !important;
+    background-color: black !important;
+}
+.accordion-button{
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: none !important;
+}   
+.accordion-button:hover{
+    background-color: rgb(88, 86, 86) !important;
+    animation: scale 0.5s ease-in-out forwards;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+.accordion-body{
+    font-size: 25px !important;
+    color: rgb(243, 239, 239) !important;
+}
+.accordion-item{
+    border: none !important;
+    border-radius: none !important;
+}
+.accordion-item:hover{
+    box-shadow: none !important;
+    border:none !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+    border: none !important;
+    background-color: rgb(53, 52, 52) !important;
+}   
+.footer a{
+    color: rgb(181, 175, 175) !important;
+    padding-left: 70px !important;
+    font-size: 15px !important;
+}
+.footer .row{
+    width: 90% !important;
+}
+.dropdown{
+    border: 1px solid gray !important;
+    width: 100px !important;
+    
+}
+.last-anchor a{
+    /* color: rgb(60, 60, 232) !important; */
+    font-size: 12px !important;
+    padding-left: 0px !important;
+}
+.post-footer, form .form-footer{
+     color: rgb(165, 162, 162) !important;
+     font-size: 13px !important;
+}
+.signin-header{
+    height: 145vh !important;
+}
+.signin-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.sign-in-form{
+     opacity: 1 !important;
+     position: relative;
+   
+}
+.form-body{
+    margin: auto !important;
+    position: relative;
+    border-radius: 10px !important;
+    opacity: 0.8 !important;
+    z-index: 10 !important;
+    width: 40% !important;
+    height: 85% !important;
+}
+.btn-danger{
+    background-color: red !important;
+    border: none !important;
+}
+.btn-secondary{
+    background-color: dark !important;
+    color: white !important;
+    opacity: 0.7 !important;
+    border: none !important;
+}
+.prelast-footer{
+  font-size: 15px !important;
+}
+.forget a{
+    color: white !important;
+}
+.form-footer a, .btn-danger a{
+    text-decoration: none !important;
+    color: white !important;
+}
+@media screen and (max-width: 700px) {
+ .navbar{
+    padding: 10px 30px 10px 10px!important;
+}
+.text h1{
+    font-size: 35px !important;
+    width: 90%;
+}
+.text input{
+    width: 100% !important;
+}
+.email{
+   width: 90% !important;
+}
+.card-body p{
+    font-size: 50px !important;
+    margin-top: 1rem !important;
+}
+.card{
+   width: 6rem !important;
+}
+.carousel-item, .reason-container{
+    width: 85% !important;
+    margin-left: 50px !important;
+}
+.reason-container{
+     width: 90% !important;
+    margin-left: 20px !important;
+}
+.reasons .icon{
+  margin-top: 10px !important;
+}
+.FAQ .accordion{
+    width: 90% !important;
+}
+.trending h4,.reasons h4, .FAQ h3{
+    padding-left: 20px !important;
+} 
+.pre-footer input{
+    width: 65% !important;
+}
+.pre-footer button{
+    padding: 12px 7px 12px 7px !important;
+}
+.footer a{
+    padding-left: 25px !important;
+}
+.post-footer{      
+    font-size: 12px !important;
+
+}
+.signin-header{
+    height: auto!important;
+}
+.form-body{
+    width: 80% !important;
+}
+}
+@media screen and (max-width:599px) {
+ .email{
+   width: 100% !important;
+}
+.pre-footer input{
+    width: 100% !important;      
+}
+.carousel-item, .reason-container{
+    width: 70% !important;
+    margin-left: 10px !important;
+}
+.reason-container{
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+.card-body p{
+    font-size: 30px !important;
+    margin-top: 1rem !important;
+}
+.card{
+   width: 4.5rem !important;
+   margin-left: 40px !important;
+
+}
+.trending h4,.reasons h4, .FAQ h3{
+    padding-left: 0px !important;
+} 
+.FAQ h3{
+    padding-left: 20px !important;
+}
+.footer a, .post-footer h6, .post-footer p{
+    padding-left: 0px !important;
+}
+.dropdown{
+    margin: 0px !important;
+}
+.signin-header{
+    height: 100vh !important;
+}
+.signin-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.sign-in-form{
+     opacity: 1 !important;
+     position: relative;
+   
+}
+.form-body{
+    width: 100% !important;
+    height: auto !important;
+}
+}
