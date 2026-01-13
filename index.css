@@ -321,7 +321,7 @@ header{
 }
 @media screen and (max-width:599px) {
     .overlay{
-    height: 100%;
+    height: 115%;
 }
  .email{
    width: 100% !important;
@@ -334,8 +334,9 @@ header{
     margin-left: 10px !important;
 }
 .reason-container{
+    margin: auto !important;
     margin-left: 0px !important;
-    width: 90% !important;
+    width: 95% !important;
 }
 .card-body p{
     font-size: 30px !important;
