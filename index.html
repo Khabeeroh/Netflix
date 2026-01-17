@@ -25,10 +25,10 @@
 
        <div class="text text-center text-white pt-5">
             <h1 class="pt-5">Unlimited movies, TV shows and more.</h1>
-            <h3 class="pt-3 pb-3 pb-lg-3 fw-lg-bold fs-6 fs-lg-1">Start at #2,500. Cancel anytime</h3>
-            <p class="w-lg-0 w-75 mx-auto ">Ready to watch? Enter your email to create or restart your membership.</p>
-            <div class="input-group d-flex justify-content-center align-items-center w-75 w-lg-50 mx-auto gap-2">
-                <input type="email" class="email p-3 w-lg-75 w-50  rounded-1" placeholder="Email address">
+            <h3 class="pt-2 pb-2 pb-lg-3 fw-lg-bold fs-6 fs-lg-1">Start at #2,500. Cancel anytime</h3>
+            <p class="w-lg-0 w-md-75 w-100 mx-auto ">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center w-100 w-lg-50 mx-auto gap-2">
+                <input type="email" class="email p-3 w-lg-75 w-md-50 w-100 rounded-1" placeholder="Email address">
                 <button class="btn text-white fs-4 px-4 py-2 fw-bold rounded-1" type="button">Get Started &RightAngleBracket;</button>
             </div>
        </div> 
@@ -37,11 +37,11 @@
     <section class="trending p-lg-5 p-0 pt-0 pb-3 ">
         <div class="linear"></div>
         <h4 class="pt-5 ps-lg-5 ps-0 mx-5 mx-lg-5 pb-3 text-white">Trending Now</h4>
-
-      <div class="container-fluid trending-container pb-5">
+        <div class="container-fluid trending-container pb-5">
         <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <div class="container">
                     <div class="row d-flex justify-content-center gap-lg">
                         <div class="col-3 ">
                             <div class="card" style="width: 12rem;">
@@ -76,9 +76,12 @@
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
+                    
             <div class="carousel-item">
-                <div class="row d-flex justify-content-center">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
                         <div class="col-3">
                             <div class="card" style="width: 12rem;">
                                 <img src="images/cashero.webp" class="card-img-top" alt="...">
@@ -114,11 +117,13 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
-    
+                </div>
             </div>
             <div class="carousel-item">
-                 <div class="row d-flex justify-content-center">
+                <div class="container">
+                     <div class="row d-flex justify-content-center">
                         <div class="col-3">
                             <div class="card" style="width: 12rem;">
                                 <img src="images/man vs baby.webp" class="card-img-top" alt="...">
@@ -135,9 +140,27 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-3">
+                            <div class="card" style="width: 12rem;">
+                                <img src="images/waiter.webp" class="card-img-top" alt="...">
+                                <div class="card-body z-0 position-absolute pt-5">
+                                    <p class="fs-1 fw-bolder text-white">11</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-3">
+                            <div class="card" style="width: 12rem;">
+                                <img src="images/spartacus.webp" class="card-img-top" alt="...">
+                                <div class="card-body z-0 position-absolute pt-5">
+                                    <p class="fs-1 fw-bolder text-white">12</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
+                </div>
             </div>
+
         </div>
          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -148,15 +171,15 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>
-
       </div>
+
     </section>
     <!-- Section 2 -->
      <section class="reasons p-lg-5 p-2 pt-0 text-white">
-        <h4 class="ps-3 ps-lg-5 mx-lg-5 mx-3 pb-3">More Reasons to Join</h4>
+        <h4 class="ps-3 ps-lg-5 mx-lg-5 mx-md-3 mx-auto pb-3">More Reasons to Join</h4>
         <div class="container reason-container">
-            <div class="row d-flex gap-3 pb-5">
-                <div class="col col-lg col-12">
+            <div class="row d-flex flex-column flex-lg-row gap-3 pb-5">
+                <div class="reason-item col-lg col-md-12 col-12">
                     <div>
                         <h3 class="pb-2">Enjoy Your TV</h3>
                         <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
@@ -165,7 +188,7 @@
                        <i class="fa-solid fa-tv"></i>
                     </div>
                 </div>
-                <div class="col col-lg col-12">
+                <div class="reason-item col-lg col-md-12 col-12">
                     <div>
                         <h3 class="pb-2">Download your shows to watch offline</h3>
                         <p>Save your favorites easily and always have something to watch.</p>
@@ -174,7 +197,7 @@
                         <img src="images/download.png" alt="">
                     </div>
                 </div>
-                <div class="col col-lg col-12">
+                <div class="reason-item col-lg col-md-12 col-12">
                  <div>
                         <h3 class="pb-2">Watch Everywhere</h3>
                         <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
@@ -183,7 +206,7 @@
                         <img src="images/telescope_11772097.png" alt="">
                     </div>
                 </div>
-                <div class="col col-lg col-12">
+                <div class="reason-item col-lg col-md-12 col-12">
                     <div>
                         <h3 class="pb-2 fs-4">Create profiles for kids</h3>
                         <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
@@ -198,7 +221,7 @@
 
      <!-- Faq -->
       <section class="FAQ p-lg-5 p-2 px-lg-5 px-0 pt-0 bg-black text-white">
-        <h3 class="px-lg-5 px-0 mx-lg-5 mx-0 pb-3 text-white faq-text">Frequently Asked Questions</h3>
+        <h3 class="px-lg-5 px-md-5 px-0 mx-lg-5 mx-md-4 mx-0 pb-3 text-white faq-text">Frequently Asked Questions</h3>
         <div class="accordion accordion-flush bg-dark text-white d-flex flex-column gap-3" id="accordionFlushExample">
             <div class="accordion-item bg-dark text-white p-2"  data-bs-theme="dark">
                 <h2 class="accordion-header">
@@ -266,7 +289,7 @@
         </div>
       </section>
       <!-- pre-footer -->
-        <section class="pre-footer bg-black text-white text-lg-center text-start p-5 py-lg-0 px-3 px-lg-5 pb-0">
+        <section class="pre-footer bg-black text-white text-lg-center text-md-center text-start p-5 py-lg-0 px-4 px-md-5 px-lg-5 pb-0">
             <h5 class="fs-6 pb-3">Ready to watch? Enter your email to create or restart your membership.</h5>
             <div class="input-group d-flex flex-lg-row gap-3 gap-lg gap-sm flex-row justify-content-lg-center justify-content-start align-items-lg-center align-items-start w-lg-75 w-100 mx-auto gap-2 pb-5">
                 <input type="email" class="email p-3 w-lg-75 w-50 rounded-1" placeholder="Email address">
@@ -278,25 +301,25 @@
         <h6 class="px-lg-4 px-0 mx-4"> <a href="">Questions? Contact Us.</a></h6>
         <div class="container footer-container p-lg-4 p-0 pt-4 m-4 mt-0 ">
             <div class="row d-flex justify-content-center">
-                <div class="col-6 col-lg d-flex flex-column gap-2">
+                <div class="col-12 col-md-6 col-lg d-flex flex-column gap-2">
                     <a href="">FAQ</a>
                     <a href="">Investor  Relations</a>
                     <a href="">Privacy</a>
                     <a href="">Speed Test</a>
                 </div>
-                <div class="col d-flex flex-column gap-2"> 
+                <div class="col-12 col-md-6 col-lg d-flex flex-column gap-2"> 
                     <a href="">Help Center</a>
                     <a href="">Jobs</a>
                     <a href="">Cookie Preferences</a>
                     <a href="">Legal Notices</a>
                 </div>
-                <div class="col d-flex flex-column gap-2">
+                <div class="col-12 col-md-6 col-lg d-flex flex-column gap-2">
                      <a href="">Account</a>
                     <a href="">Way to Watch</a>
                     <a href="">Corporate information</a>
                     <a href="">Only on Netflix</a>
                 </div>
-                <div class="col d-flex flex-column gap-2">
+                <div class="col-12 col-md-6 col-lg d-flex flex-column gap-2">
                     <a href="">Media Center</a>
                     <a href="">Terms of Use</a>
                     <a href="">Contact Us</a>
@@ -304,7 +327,7 @@
             </div>
             <!-- dropdown -->
              <div class="post-footer px-lg-4">
-                <div class="dropdown m-5 mx-0 mx-sm-4 mx-lg-5">
+                <div class="dropdown m-5 mx-2 mx-md-4 mx-lg-5">
                 <button class="btn btn-black text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     English
                 </button>
@@ -312,8 +335,8 @@
                     <li><a class="dropdown-item" href="#">English</a></li>
                 </ul>
              </div>
-                <h6 class="px-lg-4 px-3 mx-lg-4 mx-2 fw-bold">Netflix Nigeria</h6>
-                <p class="px-lg-4 px-3 mx-lg-4 mx-2 pt-3 last-anchor"> This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="">Learn more.</a></p>
+                <h6 class="px-lg-4 px-md-3 px-0 mx-lg-4 mx-2 fw-bold">Netflix Nigeria</h6>
+                <p class="px-lg-4 px-md-3 px-0 mx-lg-4 mx-md-2 mx-2 pt-3 last-anchor"> This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="">Learn more.</a></p>
              </div>
         </div>         
 </body>
