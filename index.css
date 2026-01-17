@@ -319,7 +319,7 @@ header{
     font-size: 17px !important;
 }
 .pre-footer input{
-    width: 80% !important;
+    width: 70% !important;
 }
 .pre-footer button{
     padding: 12px 7px 12px 7px !important;
@@ -330,7 +330,6 @@ header{
 .post-footer{      
     font-size: 12px !important;
 }
-
 .signin-header{
     height: auto!important;
 }
